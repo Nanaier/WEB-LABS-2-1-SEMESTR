@@ -1,0 +1,92 @@
+html {
+    height: 100%;
+}
+body{
+    min-width: fit-content;
+    margin: 0;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(29, 32, 37);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(29, 32, 37);
+
+}
+
+a:hover{
+    color: rgb(131, 92, 152);
+}
+td{
+    border: 1px solid black;
+}
+.tbl{
+    width: 100%;
+    height:100%;
+    border-spacing: 0;
+    text-indent: 0%;
+    border-collapse: collapse;
+    
+}
+.one-without{
+    width: 24.609375%;
+    padding: 10px;
+    background-color: peachpuff;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.two-without{
+    width: 73.828125%;
+    background-color: rgb(190, 210, 253);
+    padding-left: 4vw;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.item{
+    width: 1.5625%;
+    min-width: 30px;
+}
+.three-without{
+    padding: 10px 10px 10px 6vw;
+}
+
+.four-without{
+    padding: 10px;
+    background-color: rgb(196, 238, 196);
+
+}
+.four-without p{
+    text-align: left;
+    padding-top: 3em;
+}
+
+.five-without{
+    vertical-align: top;
+    background-color: rgb(190, 210, 253);
+    padding-right: 4vw;
+    padding-top: 2%;
+    text-align: right;
+}
+
+.five-without h4{
+    text-align: right;
+}
+.one-without h1{
+    
+    padding-left: 25px;
+}
+.one-without ul{
+    border-radius: 15px;
+    border-style: dotted;
+}
+.one-without li{
+    padding-bottom: 6px;
+}
+
+.three-without ol li {
+    font-size: larger;
+    padding-bottom: 9px
+}
+

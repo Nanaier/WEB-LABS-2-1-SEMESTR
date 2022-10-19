@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(29, 32, 37);
+
+}
+
+a:hover{
+    color: rgb(131, 92, 152);
+}
+
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(29, 32, 37);
+    font-size: larger;
+    
+
+}
+
+
+.right-aside div{
+    border: 1px solid black;
+}
+#table{
+    width:30px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+.left-aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.right-aside{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+
+    
+}
+
+.one-flex{
+    width: 25%;
+    padding: 10px;
+    background-color: peachpuff;
+    border: 1px solid black;
+    
+}
+
+.two-flex{
+    background-color: rgb(190, 210, 253);
+    padding-left: 4vw;
+    padding-bottom: 35px;
+    padding-top: 10px;
+}
+
+.three-flex{
+    padding: 10px 10px 10px 6vw;
+}
+
+.four-flex{
+    border: 1px solid black;
+    padding: 10px;
+    width: 25%;
+    background-color: rgb(196, 238, 196);
+}
+.four-flex p{
+    text-align: left;
+    padding-top: 3em;
+}
+
+.five-flex{
+    border: 1px solid black;
+    background-color: rgb(190, 210, 253);
+    padding-top: 2%;
+    width: 75%;
+    text-align: right;
+    vertical-align: top;
+}
+.five-flex h3{
+    margin:0;
+    padding: 25px;
+}
+.five-flex h4{
+    margin:0 0 20px 0;
+    text-align: right;
+}
+.one-flex h1{
+    width: fit-content;
+    padding-left: 25px;
+}
+.one-flex ul{
+    border-radius: 15px;
+    border-style: dotted;
+}
+.one-flex li{
+    padding-bottom: 6px;
+}
+
+.three-flex ol li {
+    font-size: larger;
+    padding-bottom: 9px
+}
+
+@media (max-width: 1000px) {
+    /* #top-content {
+        display: block;
+    } */
+    body{
+        font-size: 22px;
+    }
+    .one-flex,
+    
+    .right-aside,
+    .left-aside,
+    .four-flex,
+    .five-flex {
+        width: 100%;
+    }
+    .one-flex,
+    .four-flex,
+    .two-flex,
+    .three-flex,
+    .five-flex{
+        padding: 0;
+    }
+    .five-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .four-flex p{
+        padding: 5% 0;
+        text-align: center;
+    }
+    .five-flex h4{
+        text-align: center;
+    }
+    .one-flex ul{
+        font-size: 26px;
+        text-align: center;
+    }
+    .left-aside{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column-reverse;
+    }
+    .three-flex img{
+        width: 70%;
+        display: block;
+    }
+    .one-flex *,
+    .two-flex h1,
+    .three-flex *,
+    .four-flex *,
+    .five-flex *{
+        text-align: center;
+        padding: 0;
+        list-style: none;
+        width: 50%;
+        margin: auto;
+    } 
+}

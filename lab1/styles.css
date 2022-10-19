@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(29, 32, 37);
+
+}
+
+a:hover{
+    color: rgb(131, 92, 152);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    font-size: larger;
+    display: grid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(29, 32, 37);
+
+    grid-template-columns: 2fr 30px 6fr ;
+    grid-template-rows: 1fr 3fr 1fr;
+    /*gap: 5px;*/
+
+    box-sizing: border-box;
+}
+.container div{
+    border: 1px solid black;
+}
+
+.one{
+    
+    padding: 10px;
+    grid-column: 1;
+    grid-row: 1 / 3;
+    background-color: peachpuff;
+    
+}
+
+.two{
+    grid-column: 3;
+    grid-row: 1;
+    background-color: rgb(190, 210, 253);
+    padding-left: 4vw;
+    padding-top: 10px;
+}
+
+.three{
+    padding: 10px 10px 10px 6vw;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.four{
+    padding: 10px;
+    grid-column: 1;
+    grid-row: 3;
+    background-color: rgb(196, 238, 196);
+}
+.four p{
+    text-align: left;
+    padding-top: 3em;
+}
+
+.five{
+    grid-column: 3;
+    grid-row: 3;
+    background-color: rgb(190, 210, 253);
+    padding-right: 4vw;
+    padding-top: 2%;
+    text-align: right;
+}
+
+.five h4{
+    text-align: right;
+}
+.one h1{
+    padding-left: 25px;
+}
+.one ul{
+    border-radius: 15px;
+    border-style: dotted;
+}
+.one li{
+    padding-bottom: 6px;
+}
+
+.three ol li {
+    font-size: larger;
+    padding-bottom: 9px
+}
+
